@@ -1,0 +1,40 @@
+
+header {
+  text-align: center;
+  border: 5px solid black;
+}
+
+.main1 {
+  display: flex;
+  justify-content: flex-start;
+
+  ul {
+    border: 5px solid black;
+    list-style-type: none;
+    padding: 25px;
+  }
+
+  ul a {
+    text-decoration: none;
+  }
+
+  li {
+    padding: 10px;
+  }
+
+  article {
+    border: 5px solid black;
+    padding-left: 50px;
+  }
+}
+
+footer {
+  text-align: center;
+  // border: 1px solid black;
+}
+
+// #403e34
+// #aca69B
+// #cec4b8
+// #46595f
+// #b3ab99
