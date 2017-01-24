@@ -15,9 +15,7 @@ export default class Layout extends Component {
       <div className='main1'>
         <nav>
           <ul>
-            {/* <Link to='/'>Home</Link> */}
-            {/* <li><Link to='/Restaurants'>Restaurants</Link></li> */}
-            <li><Link to='/restaurants'>Food</Link></li>
+            <li><Link to='/restaurants'>Click Here</Link></li>
             <li><a href='#'>Food</a></li>
             <li><a href='#'>Food</a></li>
             <li><a href='#'>Food</a></li>
@@ -26,7 +24,7 @@ export default class Layout extends Component {
         </nav>
         <article className='article'>
           <h2>Restaurants I enjoy!</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <img src='https://s-media-cache-ak0.pinimg.com/originals/a1/b7/fa/a1b7fab49203c1a8a7d0bf87da5b2cd2.jpg' height='300' width='400' />
         </article>
       </div>
       <main>
