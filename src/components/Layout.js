@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 // import Restaurants from './Restaurants'
+import { Link } from 'react-router'
 export default class Layout extends Component {
   render () {
     return <div className='flex-container'>
@@ -9,6 +10,8 @@ export default class Layout extends Component {
       <div className='main1'>
         <nav>
           <ul>
+            {/* <Link to='/'>Home</Link> */}
+            <li><Link to='/Restaurants'>Restaurants</Link></li>
             <li><a href='#'>Food</a></li>
             <li><a href='#'>Food</a></li>
             <li><a href='#'>Food</a></li>
