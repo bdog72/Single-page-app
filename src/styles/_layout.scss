@@ -5,6 +5,12 @@ header {
   font-size: 40px;
   widows: 175px;
   color: #50504d;
+  display: flex;
+  justify-content: space-around;
+
+  img {
+    transform: rotate(20deg);
+  }
 }
 
 .main1 {
@@ -33,6 +39,7 @@ header {
 
     h2 {
       font-size: 35px;
+      text-align: center;
     }
 
     img {
