@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+// import Restaurants from './Restaurants'
 export default class Layout extends Component {
   render () {
     return <div className='flex-container'>
@@ -9,11 +9,11 @@ export default class Layout extends Component {
       <div className='main1'>
         <nav>
           <ul>
-            <li><a href='#'>Choice1</a></li>
-            <li><a href='#'>Choice2</a></li>
-            <li><a href='#'>Choice3</a></li>
-            <li><a href='#'>Choice4</a></li>
-            <li><a href='#'>Choice5</a></li>
+            <li><a href='#'>Food</a></li>
+            <li><a href='#'>Food</a></li>
+            <li><a href='#'>Food</a></li>
+            <li><a href='#'>Food</a></li>
+            <li><a href='#'>Food</a></li>
           </ul>
         </nav>
         <article className='article'>

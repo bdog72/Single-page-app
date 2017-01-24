@@ -1,7 +1,8 @@
 
 header {
   text-align: center;
-  border: 5px solid black;
+  // border: 5px solid black;
+  font-size: 30px;
 }
 
 .main1 {
@@ -9,7 +10,7 @@ header {
   justify-content: flex-start;
 
   ul {
-    border: 5px solid black;
+    // border: 5px solid black;
     list-style-type: none;
     padding: 25px;
   }
@@ -20,17 +21,30 @@ header {
 
   li {
     padding: 10px;
+    padding: 20px 0;
+    font-size: 25px;
   }
 
   article {
-    border: 5px solid black;
+    // border: 2px solid black;
     padding-left: 50px;
+    padding-right: 20px;
+
+    h2 {
+      font-size: 35px;
+    }
+
+    p {
+      font-size: 20px;
+    }
   }
 }
 
 footer {
   text-align: center;
-  // border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 
 // #403e34
