@@ -1,20 +1,17 @@
 import React, { Component } from 'react'
-// import { Router, Route, browserHistory } from 'react-router'
+import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 import Restaurants from './Restaurants'
+import Home from './Home'
 import Layout from './Layout'
 
 export default class App extends Component {
 
   render () {
-    return <div><div>
-      <Layout />
-    </div>
-      <div>
-        <Restaurants />
-      </div></div>
-    // return <Router history={browserHistory}>
-    //   <Route component={Layout}>
-    //     <Route path='/Restaurants' component={Restaurants}>
-    //   </Router>
+    return <Router history={browserHistory}>
+      <Route path='/' component={Layout}>
+        <IndexRoute component={Home} />
+        <Route path='restaurants' component={Restaurants} />
+      </Route>
+    </Router>
   }
 }
