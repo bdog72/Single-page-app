@@ -1,0 +1,16 @@
+{
+  "locations": [
+    {
+      "name": "Ale-House",
+      "address": "7901 MLK st.North, st-pete, FL, 33702",
+      "phone": "727-217-9206",
+      "mapPlaceId": "ChIJIeELXaDmwogRUZHuvmZUF5U"
+    },
+    {
+      "name": "Casual Clam",
+      "address": "3336 9th Street North, st-pete, FL",
+      "phone": "727-895-2526",
+      "mapPlaceId": "ChIJV3mXdF_hwogRz-SlbBcKGGo"
+    }
+  ]
+}

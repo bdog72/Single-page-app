@@ -5,10 +5,8 @@ export default class Restaurants extends Component {
   render () {
     return <div>
       <header>
-        {/* <img src='http://dolcecarini.com/wp-content/uploads/2014/07/Cheeseburger.jpg' height='100' width='100' /> */}
         <h1>Restaurants</h1>
-        <h2>Restaurants I enjoy!</h2>
-        {/* <img src='http://dolcecarini.com/wp-content/uploads/2014/07/Cheeseburger.jpg' height='100' width='100' /> */}
+        {/* <h2>Restaurants I enjoy!</h2> */}
       </header>
       <nav className='mainNavigation'>
         <ul>
