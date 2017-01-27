@@ -4,7 +4,6 @@ import Restaurants from './Restaurants'
 import Home from './Home'
 import Layout from './Layout'
 import Foo from './Foo'
-
 export default class App extends Component {
 
   render () {
