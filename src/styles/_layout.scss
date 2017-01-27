@@ -21,11 +21,6 @@ header {
     font-size: 4vw;
     color: white;
   }
-
-  img {
-    transform: rotate(20deg);
-    border-radius: 35px;
-  }
 }
 
 nav.mainNavigation {
@@ -63,10 +58,12 @@ nav.mainNavigation {
   }
 }
 
+.img2 {
+  max-width: 760px;
+}
 footer {
   text-align: center;
   margin-top: 100px;
-  // margin-bottom: -120px;
   font-size: 20px;
 }
 
