@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "deploy": "npm run build && surge ./public --domain final-project-1.bdog72.surge.sh",
+    "deploy": "npm run build && surge ./public --domain lowly-ice.surge.sh",
     "start": "webpack-dev-server",
     "build": "rm -rf public && NODE_ENV=production webpack --optimize-minimize --progress --profile --colors"
   },
